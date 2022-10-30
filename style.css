@@ -1,0 +1,55 @@
+* {
+    text-align: center;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("./Background.png");
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #F89A1C;
+}
+
+p:first-of-type {
+    font-family: 'Roboto', sans-serif;
+    color: #F89A1C;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 0.1;
+}
+
+p:nth-of-type(2) {
+    font-family: 'Roboto', sans-serif;
+    color: #F89A1C;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.Flex {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Element {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    height: 70px;
+    background-color: #07001F;
+    border-radius: 50px;
+    filter: drop-shadow(-14px 1px 10px #000);
+}
+
+.NewLangue {
+    font-family: 'Roboto', sans-serif;
+    color: #F89A1C;
+    font-size: 6rem;
+}
